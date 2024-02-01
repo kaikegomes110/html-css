@@ -1,0 +1,87 @@
+*body{
+    
+    background-color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto px;
+}
+
+body {
+    background-image: linear-gradient(to right,#0093D3, #FFDB00, rgb(43, 43, 92));
+}
+main{
+    background-color: #6e64646e ;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgba(233, 207, 60, 0.637); 
+}
+   h1 {
+    color: #FFDB00;
+   }
+   h2 {
+    color: #3422d8;
+   }
+p{
+    text-align: justify;;
+    color: white(197, 182, 182);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PARTE DOIS
+
+*{
+    background-color: --cor0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-image: linear-gradient(to right 5cbe7d);      
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.main{
+background-image: linear-gradient(to right,#50AC71, #2B7449, #1A5A37);
+padding: 10px;
+margin: auto;
+}
+
+.dois {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 32px;
+}
+
+nav > a {
+    text-decoration: none ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 15px;
+}
+   
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+.historia{
+    text-align: center;
+    color: #1A5A37;
+}

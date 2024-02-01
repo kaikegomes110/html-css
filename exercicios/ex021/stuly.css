@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body {
+    
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(255, 102, 0, 0.76);
+    
+}
+.html {
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    background-color: rgba(66, 14, 129, 0.753);
+}
+.Aprendendo{
+    text-align: center;
+    font-size: 29px;
+    color: rgb(66, 14, 129);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(68, 4, 131);
+    font-weight: lighter;
+}
+h1#secundário {
+    
+        font-weight: lighter;
+        color: rgb(66, 14, 129);
+        text-align: center;
+        font-weight: bolder;
+    }   
+    
+
+
+h2 {
+    color: rgb(66, 14, 129);
+    
+}
+.basico {
+    color: rgb(66, 14, 129);
+}
+
+ 
