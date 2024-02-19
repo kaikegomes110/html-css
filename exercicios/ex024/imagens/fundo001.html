@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagens de Fundo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            text-align: center;
+        }
+
+        div.quadrado{
+            display: inline-block;
+            border-radius: 76px;
+            width: 217px;
+            height: 43px;
+            text-align: center;
+        }
+
+        div#q1{
+            background-image: linear-gradient(rgb(206, 206, 197), transparent);
+            bottom: 10px;
+            text-align: center;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, rgb(206, 206, 197), transparent );
+            text-align: center;
+            input-security: id=senha;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+        <form>
+            <h2 class="cadastrar"> Cadastrar</h2>
+            <label for="Username">Home</label>
+            <div class="input">
+                <input id="Username" name="Username" placeholder="Username" type="Username">
+            </div>
+            <label for="Email">Email</label>
+            <div class="input">
+                <input id="Email" name="Email" placeholder="Email" type="Email">
+            </div>
+            <label for="senha">Senha</label>
+            <div class="input">
+                <input id="Senha" name="Senha" placeholder="Senha" type="Senha">
+            </div>
+            <div id="btn">
+                <button type="submit">cadastrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
